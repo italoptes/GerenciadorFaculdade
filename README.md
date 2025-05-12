@@ -1,6 +1,6 @@
 ﻿# Gerenciador Faculdade
 
-Projeto de Gerenciamento de Faculdade 🎓💻
+->Projeto de Gerenciamento de Faculdade 🎓💻
 
 Esse projeto é um sistema de gerenciamento acadêmico desenvolvido em Java, com o objetivo de simular a administração de uma faculdade. Nele, é possível:
 
@@ -16,16 +16,19 @@ Esse projeto é um sistema de gerenciamento acadêmico desenvolvido em Java, com
 
 -Realizar buscas e validações para garantir que as ações sejam feitas apenas com dados corretos e cadastrados.
 
-O projeto foi totalmente construído respeitando boas práticas de orientação a objetos (POO), tratamento de exceções e interação amigável com o usuário via console.
 
-Além disso, todos os dados inseridos passam por validações rigorosas, como nomes que aceitam apenas letras e espaços, garantindo a integridade e a qualidade do cadastro.
+->O projeto foi totalmente construído respeitando boas práticas de orientação a objetos (POO), tratamento de exceções e interação amigável com o usuário via console.
 
-O foco principal foi criar um sistema modular, escalável e fácil de usar, simulando um ambiente acadêmico real.
+->Além disso, todos os dados inseridos passam por validações rigorosas, como nomes que aceitam apenas letras e espaços, garantindo a integridade e a qualidade do cadastro.
 
-Tecnologias usadas: Java, Programação Orientada a Objetos (POO), Serialização de Dados, Tratamento de Exceções.
+->O foco principal foi criar um sistema modular, escalável e fácil de usar, simulando um ambiente acadêmico real.
+
+->Tecnologias usadas: Java, Programação Orientada a Objetos (POO), Serialização de Dados, Tratamento de Exceções.
 
 
-Como executar:
+
+->Como executar:
+
 Clone ou baixe o repositório do projeto
 
 Abra o projeto no IntelliJ IDEA (ou outra IDE Java de sua preferência)
