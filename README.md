@@ -1,4 +1,4 @@
-﻿# GerenciadorFaculdade
+﻿# Gerenciador Faculdade
 
 Projeto de Gerenciamento de Faculdade 🎓💻
 Esse projeto é um sistema de gerenciamento acadêmico desenvolvido em Java, com o objetivo de simular a administração de uma faculdade. Nele, é possível:
