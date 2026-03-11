@@ -1,38 +1,69 @@
-﻿# Gerenciador Faculdade
+﻿# 🎓 Gerenciador de Faculdade
 
-->Projeto de Gerenciamento de Faculdade 🎓💻
+## 📚 Sobre o Projeto
 
-Esse projeto é um sistema de gerenciamento acadêmico desenvolvido em Java, com o objetivo de simular a administração de uma faculdade. Nele, é possível:
+O **Gerenciador de Faculdade** é um sistema acadêmico desenvolvido em **Java** com o objetivo de simular a administração de uma instituição de ensino superior.
 
--Cadastrar alunos e professores com validações de dados.
+O sistema permite realizar o gerenciamento de alunos, professores, disciplinas e turmas, além de controlar notas e manter o histórico de informações utilizando **serialização de dados**.
 
--Criar disciplinas e turmas, associando professores às disciplinas e alunos às turmas.
+O projeto foi desenvolvido aplicando **boas práticas de Programação Orientada a Objetos (POO)**, tratamento de exceções e validação de dados, garantindo maior organização, confiabilidade e manutenção do código.
 
--Gerenciar notas por unidades avaliativas e calcular médias automaticamente.
+---
 
--Ativar e desativar alunos, professores e turmas, controlando o ciclo de vida das entidades acadêmicas.
+## ⚙️ Funcionalidades
 
--Salvar e carregar os dados em arquivos (.ser) para manter o histórico de informações.
+O sistema permite:
 
--Realizar buscas e validações para garantir que as ações sejam feitas apenas com dados corretos e cadastrados.
+* 📌 **Cadastrar alunos e professores** com validações de dados.
+* 📚 **Criar disciplinas e turmas**, associando professores às disciplinas e alunos às turmas.
+* 📝 **Gerenciar notas** por unidades avaliativas e calcular médias automaticamente.
+* 🔄 **Ativar e desativar alunos, professores e turmas**, controlando o ciclo de vida das entidades.
+* 💾 **Salvar e carregar dados em arquivos (`.ser`)**, mantendo o histórico de informações.
+* 🔍 **Realizar buscas e validações**, garantindo que ações sejam realizadas apenas com dados cadastrados.
 
+---
 
-->O projeto foi totalmente construído respeitando boas práticas de orientação a objetos (POO), tratamento de exceções e interação amigável com o usuário via console.
+## 🧩 Características do Projeto
 
-->Além disso, todos os dados inseridos passam por validações rigorosas, como nomes que aceitam apenas letras e espaços, garantindo a integridade e a qualidade do cadastro.
+* Aplicação baseada em **console interativo**.
+* Estrutura **modular e organizada**.
+* Uso de **serialização para persistência de dados**.
+* **Validação rigorosa de entradas**, permitindo apenas nomes com letras e espaços.
+* Tratamento de exceções para evitar falhas durante a execução.
 
-->O foco principal foi criar um sistema modular, escalável e fácil de usar, simulando um ambiente acadêmico real.
+O objetivo principal foi construir um sistema **simples, escalável e funcional**, simulando o funcionamento de um ambiente acadêmico real.
 
-->Tecnologias usadas: Java, Programação Orientada a Objetos (POO), Serialização de Dados, Tratamento de Exceções.
+---
 
+## 🛠️ Tecnologias Utilizadas
 
+* **Java**
+* **Programação Orientada a Objetos (POO)**
+* **Serialização de Dados**
+* **Tratamento de Exceções**
 
-->Como executar:
+---
 
-Clone ou baixe o repositório do projeto
+## ▶️ Como Executar o Projeto
 
-Abra o projeto no IntelliJ IDEA (ou outra IDE Java de sua preferência)
+1. Clone ou baixe este repositório.
 
-Compile e execute o arquivo Main.java
+2. Abra o projeto em uma IDE Java, como:
 
-Use o menu interativo no console para navegar pelas funcionalidades
+    * IntelliJ IDEA
+    * Eclipse
+    * VS Code
+
+3. Compile e execute o arquivo:
+
+```
+Main.java
+```
+
+4. Utilize o **menu interativo no console** para navegar pelas funcionalidades do sistema.
+
+---
+
+## 📌 Objetivo Acadêmico
+
+Este projeto foi desenvolvido com fins **educacionais**, com o objetivo de praticar conceitos fundamentais de **Java e Programação Orientada a Objetos**, incluindo modelagem de classes, manipulação de coleções, persistência de dados e tratamento de exceções.
