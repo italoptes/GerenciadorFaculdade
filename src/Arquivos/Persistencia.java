@@ -1,5 +1,8 @@
 package Arquivos;
 
+import java.util.List;
+import java.io.*;
+
 public class Persistencia<T> {
     public void salvarEmArquivo(T objeto, String nomeArquivo) {
         try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(nomeArquivo))) {
@@ -10,7 +13,6 @@ public class Persistencia<T> {
         }
     }
 
-    @SuppressWarnings("unchecked")
     public T carregarDeArquivo(String nomeArquivo) {
         try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(nomeArquivo))) {
             return (T) in.readObject();

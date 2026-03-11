@@ -8,6 +8,7 @@ import Media.MediaMaiorUltima;
 import Media.MediaMenorNota;
 
 import java.io.Serializable;
+import java.util.*;
 
 public class Turma implements Serializable {
     private ColecaoAluno colecaoAluno;

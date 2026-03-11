@@ -1,5 +1,3 @@
-package Tests;
-
 import Colecoes.ColecaoAluno;
 import Entidades.Aluno;
 import Entidades.Disciplina;
